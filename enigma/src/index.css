@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Koulen&display=swap');
+
+:root {
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.enigmaLogo {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 100px;
+  cursor: pointer;
+
+}
+
+
+.wordsAbove {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: -80px;
+}
+
+.roadWord {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+padding-top: 3px;
+}
+
+.VeilWords {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+}
+
+.contactWord {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+  margin-top: 18px;
+}
+
+.enigmaStudio {
+  display: grid;
+  place-content: center;
+  
+}
+
+.enigmaWord {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 96px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.NotJas {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-top: -90px;
+color: #7A7A7A;
+}
+
+.enigmaWord1 {
+  font-family: Koulen;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+margin-top: -10px;  
+
+}
+
+.manyEnigma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  font-family: Koulen;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: 700px;
+  margin-top: -30px;
+}
+
+.secondStudio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.NotJas1 {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-top: -30px;
+color: #7A7A7A;
+}
+
+.manyEnigma1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  font-family: Koulen;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: 700px;
+  margin-top: -20px;
+}
+
+.NotJas2 {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #7A7A7A;
+margin-top: -20px;
+}
+
+/* Удаление стандартного стиля для всех ссылок */
+a {
+  color: inherit; /* Наследует цвет от родительского элемента */
+  text-decoration: none; /* Убирает подчеркивание */
+}
+
+/* Убирает изменение цвета для посещенных ссылок */
+a:visited {/* Стили для анимации переходов между страницами */
+  .page-transition-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .page-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 400ms, transform 400ms;
+  }
+  
+  .page-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .page-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 400ms, transform 400ms;
+  }
+  color: inherit;
+}
+
+/* Убирает изменение цвета при наведении */
+a:hover {
+  color: inherit;
+}
+
+/* Для компонентов Link из react-router-dom */
+.active {
+  color: inherit;
+}
+
+.veilPhoto {
+ display: grid;
+ place-content: center;
+ margin-top: 70px;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.page-transition {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.gameDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+}
+
+
+
+.gameDescription > * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.enigmaWord2 {
+  font-family: Koulen;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;  
+}
+
+.genre {
+  font-family: Koulen;
+font-weight: 400;
+font-size: 19px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+}
+
+.veilWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* центрирует контент по горизонтали */
+  justify-content: center;  /* опционально – если нужна вертикальная центрировка */
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.googlePlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.googleImg {
+  margin-top: 20px;
+  height: 80px;
+  width: 190px;
+}
+
+.appImg {
+  height: 80px;
+  width: 192px; 
+}
+
+.pidor {
+  opacity: 50%;
+}
+
+.limWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+h1, h2, p, li {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.heartZone {
+  font-size: 40px;
+}
+
+.section-title {
+  color: #7A7A7A;
+}
+
+.enigmaGmail {
+  font-family: Kavoon;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #7A7A7A;
+}
+
+.toCont {
+  color: #7A7A7A;
+  font-size: 25px;
+}
+
+.contUS {
+  display: grid;
+  place-content: center;
+  font-size: 70px;
+}
+
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-top: 70px;
+ gap: none;
+}
+
+.contactWrapper p {
+  margin-bottom: 20px;
+}
+
+.contactWrapper > * {
+  margin-bottom: 20px;
+}
+
+.soMed {
+  font-size: 50px;
+}
+
+.imageWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  gap: 50px;
+  margin-top: -40px;
+}
