@@ -109,7 +109,7 @@ function AppWithTransition() {
 
 function App() {
   useEffect(() => {
-    const cleanup = initApp(16, );
+    const cleanup = initApp(16, '');
     return cleanup;
   }, []);
 
